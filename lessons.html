@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="he">
+<head>
+  <title>שיעורים ומטלות</title>
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+  	<h1>	
+		<img src="images/logo.svg" alt="לוגו אתר המטלות" height="80">
+		מערכת שיעורים ומטלות
+	</h1>
+  </header>
+  
+  <nav>
+	<a class="nav-link" href="index.html">בית</a>
+	<a class="nav-link" href="lessons.html">רשימת השיעורים</a>
+	<a class="nav-link" href="assignments.html">רשימת מטלות</a>
+  </nav>
+
+  <main>
+	<h2>שיעורי קורס תב"א</h2>
+	<table id="lessons-table">
+		<tr>
+			<th>מספר</th>
+			<th>נושא</th>
+			<th>תאריך</th>
+			<th>סיכום</th>
+			<th>מטלה</th>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>מבוא ל-Client-Server</td>
+			<td>2-3.9</td>
+			<td><a href="materials/Seesion 1 - intro.pdf" target="_blank">מצגת השיעור</a></td>
+			<td><a href="materials/Project_choice_guidelines.pdf" target="_blank">הנחיות לבחירת פרויקט</a></td>
+		</tr> 
+		<tr>
+			<td>2</td>
+			<td>מבוא ל-HTML</td>
+			<td>7.9</td>
+			<td><a href="materials/html_tags_reference.pdf" target="_blank">סיכום תגי HTML</a></td>
+			<td>2-3 עמודי אתר, רעיון פרויקט</td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>מבוא ל-CSS</td>
+			<td>14.9</td>
+			<td>
+				<a href="materials/css_lesson_summary.pdf" target="_blank">סיכום תגי CSS</a><br>
+				<a href="lesson-css.html">דף שהוצג בשיעור 3</a>
+			</td>
+			<td>
+				<a href="materials/Sukkot_assignment.pdf" target="_blank">מטלת סוכות</a>
+			</td>
+		</tr>
+		<tr>
+			<td>4</td>
+			<td>HTTP והמשך CSS</td>
+			<td>5.10</td>
+			<td></td>
+			<td></td>
+		</tr>
+	</table>
+	<br>
+	כך זה נראה עם רשימה ממוספרת ב-HTML, ללא טבלה:
+	<!-- רשימה ממוספרת -->
+	<ol>
+		<li>מבוא ל-Client-Server</li>
+		<li>מבוא ל-HTML</li>
+	</ol>
+	<br>
+	וכך זה נראה עם רשימה לא ממוספרת:
+	<!-- רשימה לא ממוספרת -->
+	<ul>
+		<!--if your Hebrew/English mix looks wrong, try wrapping the odd part in <bdi>-->
+		<li>מבוא ל-Client-Server ב-2.9
+		</li>
+		<li>מבוא ל-HTML< ב- 7.9
+		</li>
+	</ul>
+  </main>
+  <footer>
+    <p>&copy; נבנה על ידי רון · פרויקט אישי בקורס פיתוח מערכות שרת-לקוח</p>
+	<img src="images/bottom-logo.svg" alt="מטלות תחתון" height="40">
+  </footer>
+</body>
+</html>

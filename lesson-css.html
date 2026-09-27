@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="he">
+
+<head>
+  <title>שיעור שלישי</title>
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+  	<h1>	
+		<img src="images/logo.svg" alt="לוגו אתר המטלות" height="80">
+		מערכת שיעורים ומטלות
+	</h1>
+  </header>
+  
+  <nav>
+	<a class="nav-link" href="index.html">בית</a>
+	<a class="nav-link" href="lessons.html">רשימת השיעורים</a>
+	<a class="nav-link" href="assignments.html">רשימת מטלות</a>
+  </nav>
+
+  <main>
+    <h2>שיעור שלישי - CSS ומודל הקופסה</h2>
+    <p>תחילה, חשוב להבין היטב את התמונה הכללית לגבי מהות קבצי ה-html וה-CSS וכן הקשר ביניהם.</p>
+	<a href="images/HTML_role.png">
+		<img src="images/HTML_role.png" alt="The role of HTML" height="50">ליחצו לצפייה בשקף על HTML ו-CSS
+	</a>
+    <p>בתוך קובץ HTML יש שני סוגי תגים: תגים סמנטיים שמתייחסים לחלקי הקובץ השונים, ותגי תוכן שמדפיסים תכנים על המסך. למדנו בקצרה את התגים העיקריים משני הסוגים.</p>
+	<a href="images/html_tags_lesson3_color.jpg">
+		<img src="images/html_tags_lesson3_color.jpg" alt="HTML tags" height="50">ליחצו לצפייה ברשימת תגי HTML שנלמדו (התג p נשכח😒).
+	</a> <br>
+	<a href="images/Semantic_tags.jpg">
+		<img src="images/Semantic_tags.jpg" alt="Semantic tags" height="50">לחצו לצפייה בתמונת התגים הסמנטיים מהשיעור הקודם
+	</a>
+	
+	<p>מה צריך לדעת כדי להתחיל לעצב עם CSS:</p>
+    <ul>
+      <li>תחילה יש לספר היכן נמצא קובץ העיצוב: &lt "link rel="stylesheet" href="style.css &gt כחלק מתגית head</li>
+      <li>מבנה חוק: selector { property: value; } </li>
+      <li>3 סוגי סלקטורים: תגית, class ו- id:
+		<ul>
+			<li>
+			תגית - להשפעה רחבה על כל הופעה של התגית בקובץ
+			</li>
+			<li>
+			class - לקבוצת אלמנטים שונים שברצוננו להעניק להם מראה זהה
+			</li>
+			<li id="my-unique">
+			 id - נועד לעצב אלמנט יחיד וחד-פעמי בעמוד
+			</li>
+		</ul>
+	  </li>
+      <li>מהם ה-properties המקובלים? 
+		<ul>
+			<li>
+			צבע טקסט ורקע: color, background-color
+			</li>
+			<li>
+			פונטים: font-size, font-family
+			</li>
+			<li>
+			 יישור טקסט: text-align
+			</li>
+		</ul>
+	  </li>
+	  <li>
+	  מודל הקופסה: כל אלמנט מורכב מהתוכן שלו (content), ריווח (padding), מסגרת (border) ומשוליים (margin).
+	  <br>
+	<a href="images/CSS-Box-Model.webp">
+		<img src="images/CSS-Box-Model.webp" alt="CSS box model" height="80"> מודל הקופסה של CSS
+	</a>
+	  
+	  </li>
+    </ul>
+	
+	
+<!-- שימו לב שבקישור הנ"ל, התמונה הקטנה משמשת גם כלינק בעצמה -ליחצו עליה-, וגם העמוד אליו עוברים כשלוחצים
+-->
+
+  </main>
+  
+
+  <footer>
+    <p>&copy; נבנה על ידי רון · פרויקט אישי בקורס פיתוח מערכות מידע</p>
+	<img src="images/bottom-logo.svg" alt="מטלות תחתון" height="40">
+  </footer>
+  
+</body>
+
+</html>
